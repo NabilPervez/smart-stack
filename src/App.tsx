@@ -10,7 +10,7 @@ const GAMES = [
     category: 'Math Logic',
     url: 'https://math-boat.netlify.app/',
     accentColor: '#00F5D4', // Cyan
-    icon: <Ship size={32} />,
+    icon: <Ship size={48} />,
   },
   {
     id: 'wheel-of-fortune',
@@ -18,7 +18,7 @@ const GAMES = [
     category: 'Word Puzzle',
     url: 'https://wheel-of-fortune-game.netlify.app/',
     accentColor: '#FBCB43', // Yellow
-    icon: <Disc size={32} />,
+    icon: <Disc size={48} />,
   },
   {
     id: 'lexilink',
@@ -26,7 +26,7 @@ const GAMES = [
     category: 'Word Association',
     url: 'https://lexilinkgame.netlify.app/',
     accentColor: '#FF6B6B', // Coral
-    icon: <Link size={32} />,
+    icon: <Link size={48} />,
   },
 ];
 
