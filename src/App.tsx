@@ -1,4 +1,4 @@
-import { LayoutGrid, Type, Calculator, Zap } from 'lucide-react';
+import { Zap, Ship, Disc, Link } from 'lucide-react';
 import { BackgroundMesh } from './components/BackgroundMesh';
 import { GameCard } from './components/GameCard';
 import './App.css';
@@ -10,7 +10,7 @@ const GAMES = [
     category: 'Math Logic',
     url: 'https://math-boat.netlify.app/',
     accentColor: '#00F5D4', // Cyan
-    icon: <Calculator size={32} />,
+    icon: <Ship size={32} />,
   },
   {
     id: 'wheel-of-fortune',
@@ -18,7 +18,7 @@ const GAMES = [
     category: 'Word Puzzle',
     url: 'https://wheel-of-fortune-game.netlify.app/',
     accentColor: '#FBCB43', // Yellow
-    icon: <LayoutGrid size={32} />,
+    icon: <Disc size={32} />,
   },
   {
     id: 'lexilink',
@@ -26,7 +26,7 @@ const GAMES = [
     category: 'Word Association',
     url: 'https://lexilinkgame.netlify.app/',
     accentColor: '#FF6B6B', // Coral
-    icon: <Type size={32} />,
+    icon: <Link size={32} />,
   },
 ];
 
